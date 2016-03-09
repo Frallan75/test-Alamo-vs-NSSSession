@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         let url = NSURL(string: urlString)!
         
         session.dataTaskWithURL(url) { (data: NSData?, response: NSURLResponse?, error: NSError?) -> Void in
-            
+        
             if let responsData = data {
                 
                 do {
